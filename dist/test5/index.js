@@ -14,6 +14,8 @@ var _asyncToGenerator2 = _interopRequireDefault(require("@babel/runtime/helpers/
 
 var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
 
+var _a$c, _a$c$b, _a$c$b$e;
+
 var A = function A() {
   (0, _classCallCheck2.default)(this, A);
 };
@@ -62,3 +64,5 @@ function sleep(n) {
     }, n);
   });
 }
+
+a === null || a === void 0 ? void 0 : (_a$c = a.c) === null || _a$c === void 0 ? void 0 : (_a$c$b = _a$c.b) === null || _a$c$b === void 0 ? void 0 : (_a$c$b$e = _a$c$b.e) === null || _a$c$b$e === void 0 ? void 0 : _a$c$b$e.f();

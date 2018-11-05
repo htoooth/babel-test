@@ -18,6 +18,7 @@ const plugins = [
     }
   ],
   'syntax-dynamic-import',
+  ['@babel/plugin-proposal-optional-chaining', { loose: false }],
   'lodash'
 ];
 

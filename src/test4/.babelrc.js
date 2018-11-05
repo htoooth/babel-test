@@ -19,7 +19,7 @@ const plugins = [
       // 生成器运行时的使用，变成全局或者局部
       "regenerator": true,
 
-      // 帮助函数是变成 inline, 还是  lib
+      // 帮助函数是变成 inline(局部), 还是  lib (全局)
       "helpers": true,
 
       // helpers 切换成 esm

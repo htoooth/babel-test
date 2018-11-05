@@ -6,13 +6,13 @@ const presets = [
       ie: 8,
 
       // 是否使用 esmodules
-      esmodules: true,
+      // esmodules: true,
     },
 
     // 启用更符合规范的转换，但速度会更慢，默认为 `false`，从目前来看，是更严格的转化，包括一些代码检查。
     spec: false,
 
-    // 有两种模式：normal, loose。其中 normal 更接近 es6 loose 更接近 es5
+    // 有两种模式：normal, loose。其中 normal 更接近 es6， loose 更接近 es5
     loose: false,
 
     // "amd" | "umd" | "systemjs" | "commonjs" | "cjs" | false, defaults to "commonjs"
@@ -28,9 +28,9 @@ const presets = [
     // 增加 polyfills
     // 按需使用
     // useBuiltIns: 'usage',
-    // 引用一次
+    // 引用一次(入口处引用一次)
     // useBuiltIns: 'entry',
-    // 不引用，独自使用
+    // 不引用，独自使用，默认值
     // useBuiltIns: false,
 
     // 强制使用所有的插件
