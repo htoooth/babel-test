@@ -24,3 +24,5 @@ function sleep(n) {
     }, n)
   })
 }
+
+a?.c?.b?.e?.f()

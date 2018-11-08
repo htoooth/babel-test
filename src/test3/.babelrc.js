@@ -27,7 +27,7 @@ const presets = [
 
     // 增加 polyfills
     // 按需使用
-    // useBuiltIns: 'usage',
+    useBuiltIns: 'usage',
     // 引用一次(入口处引用一次)
     // useBuiltIns: 'entry',
     // 不引用，独自使用，默认值
